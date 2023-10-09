@@ -9,7 +9,7 @@ All the results in the paper can be found in this repository.
 
 ### Data Organization for Matching Results
 
-All the matching results are stored in folder `results`.
+All the matching results are stored in folder `results`. Matching results for set {<k,j>}~j
 
 ```text
 boreas-YYYY-MM-DD-HH-MM
