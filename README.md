@@ -7,3 +7,29 @@ The performance of long-term place recognition can easily change with the variat
 ## Raw Data
 All the results in the paper can be found in this repository.
 
+### Data Organization
+
+Each sequence is stored as a folder under a single Amazon S3 bucket and follows the same naming convention: `s3://boreas/boreas-YYYY-MM-DD-HH-MM` denoting the time that data collection started. Below is an overview of the structure of each sequence:
+
+```text
+boreas-YYYY-MM-DD-HH-MM
+	applanix
+		camera_poses.csv
+		gps_post_process.csv
+		lidar_poses.csv
+		radar_poses.csv
+	calib
+		camera0_intrinsics.yaml
+		P_camera.txt
+		T_applanix_lidar.txt
+		T_camera_lidar.txt
+		T_radar_lidar.txt
+	camera
+		<timestamp>.png
+	lidar
+		<timestamp>.bin
+	radar
+		<timestamp>.png
+	route.html
+	video.mp4
+```
