@@ -9,27 +9,32 @@ All the results in the paper can be found in this repository.
 
 ### Data Organization for Matching Results
 
-All the matching results are stored in folder `results`. Matching results for each $\{<k , j>\}_j$ is compressed as `.rar` file.
+All the matching results are stored in folder `results`. Matching results for each $\{<k , j>\}_j$ is compressed as `.rar` file. The data organization of each `.rar` file is as shown as following: 
 
 ```text
 boreas-YYYY-MM-DD-HH-MM
-	applanix
-		camera_poses.csv
-		gps_post_process.csv
-		lidar_poses.csv
-		radar_poses.csv
-	calib
-		camera0_intrinsics.yaml
-		P_camera.txt
-		T_applanix_lidar.txt
-		T_camera_lidar.txt
-		T_radar_lidar.txt
-	camera
-		<timestamp>.png
-	lidar
-		<timestamp>.bin
-	radar
-		<timestamp>.png
-	route.html
-	video.mp4
+	LiDAR-Iris
+		1
+			loop_result.txt
+			que_frame_pose.txt
+			query_ref_id.txt
+			ref_frame_pose.txt
+		2
+			...
+		3
+			...
+		4
+			...
+		5
+			...
+	LiDAR-Iris-radar
+		...
+	MinkLoc3Dv2
+		...
+	OverlapTransformer
+		...
+	Scan Context
+		...
+	Scan Context-radar
+		...
 ```
