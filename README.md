@@ -7,9 +7,9 @@ The performance of long-term place recognition can easily change with the variat
 ## Raw Data
 All the results in the paper can be found in this repository.
 
-### Data Organization
+### Data Organization for Matching Results
 
-Each sequence is stored as a folder under a single Amazon S3 bucket and follows the same naming convention: `s3://boreas/boreas-YYYY-MM-DD-HH-MM` denoting the time that data collection started. Below is an overview of the structure of each sequence:
+All the matching results are stored in folder `results`.
 
 ```text
 boreas-YYYY-MM-DD-HH-MM
