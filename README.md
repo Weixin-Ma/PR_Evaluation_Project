@@ -9,7 +9,7 @@ All the results in the paper can be found in this repository.
 
 ### Data Organization for Matching Results
 
-All the matching results are stored in folder `results`. Matching results for each $\{<k , j>\}_j$ is compressed as `.rar` file. The data organization of each `.rar` file is as shown as following: 
+All the matching results are stored in folder `results`. Matching results for each ![](http://latex.codecogs.com/svg.latex?$\{<k , j>\}_j$) is compressed as `.rar` file. The data organization of each `.rar` file is as shown as following: 
 
 ```text
 boreas-YYYY-MM-DD-HH-MM
