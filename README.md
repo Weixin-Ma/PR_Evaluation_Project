@@ -9,7 +9,7 @@ All the results in the paper can be found in this repository.
 
 ### Data Organization for Matching Results
 
-All the matching results are stored in folder `results`. Matching results for each {<k , j>}_j is compressed as `.rar` file.
+All the matching results are stored in folder `results`. Matching results for each $\{<k , j>\}_j$ is compressed as `.rar` file.
 
 ```text
 boreas-YYYY-MM-DD-HH-MM
