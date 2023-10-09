@@ -7,6 +7,23 @@ The performance of long-term place recognition can easily change with the variat
 ## Raw Data
 All the results in the paper can be found in this repository.
 
+### Details about the Downsampled Sequences
+All the detailed files for the downsampled sequences used for testing can be found in floder `frame_info`. In each child folder, there are `lidar_frames.txt` and `radar_frames.txt`as shown as following:
+
+```text
+boreas-YYYY-MM-DD-HH-MM
+|--- lidar_frames.txt
+|     |--- 1606417097502930 0.814389404 -0.580309922 -0.003208223 -0.001453277 0.580209436 0.814116180 0.023913492 -0.002786294 -0.011265371 -0.021336336 0.999708884 0.129992412 0.000000000 0.000000000 0.000000000 1.000000000 
+|          ...
+|--- radar_frames.txt
+|     |--- 1606417097528152 0.979843754 0.199175060 0.015346467 -0.005591902 0.199444473 -0.979731467 -0.018658891 -0.010576910 0.011319031 0.021343566 -0.999708123 0.494885921 0.000000000 0.000000000 0.000000000 1.000000000 
+           ...
+```
+
+`lidar_frames.txt` records details about the LiDAR frames of the sequence `boreas-YYYY-MM-DD-HH-MM`. The $1^{th}$ column is the timestamp of the LiDAR frame. Column 2-17 is the $4 \times 4$ pose matrix of the LiDAR frame.
+
+`radar_frames.txt` records details about the Radar frames of the sequence `boreas-YYYY-MM-DD-HH-MM`. The $1^{th}$ column is the timestamp of the Radar frame. Column 2-17 is the $4 \times 4$ pose matrix of the Radar frame.
+
 ### Data Organization for Matching Results
 
 All the matching results are stored in folder `results`. Matching results for each { $\{< k, j >}$ } $_j$ is compressed as `.rar` file. The data organization of each `.rar` file is as shown as following: 
