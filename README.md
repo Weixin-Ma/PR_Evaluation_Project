@@ -85,6 +85,7 @@ ref_frame_pose.txt
 ```
 
 ## Devkit 
-We also provide tools for calculating $\overline{AwC\mbox{-}RT}$ and $\overline{AwC\mbox{-}PT}$.
+To be continued.
+<!--We also provide tools for calculating $\overline{AwC\mbox{-}RT}$ and $\overline{AwC\mbox{-}PT}$.-->
 
 ### Example Usage
