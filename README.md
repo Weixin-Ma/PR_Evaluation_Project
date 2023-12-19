@@ -82,7 +82,6 @@ ref_frame_pose.txt
 query_ref_id.txt
 |-- que: boreas-2020-12-01-13-26
     ref: boreas-2020-11-26-13-58
-    ...
 ```
 
 ## Devkit 
