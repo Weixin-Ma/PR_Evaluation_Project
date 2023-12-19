@@ -8,7 +8,7 @@ The effectiveness of long-term place recognition may be degraded by environment 
 All the results in the paper can be found in this repository.
 
 ### Details about the Downsampled Sequences
-All the detailed files for the downsampled sequences used for testing can be found in floder `frame_info`. In each child folder, there are `lidar_frames.txt` and `radar_frames.txt`as shown as following:
+All the detailed files for the down-sampled sequences used for evaluation can be found in floder `frame_info`. In each child folder, there are `lidar_frames.txt` and `radar_frames.txt`as shown as following:
 
 ```text
 boreas-YYYY-MM-DD-HH-MM
@@ -56,7 +56,7 @@ boreas-YYYY-MM-DD-HH-MM
 |   |-- ...
 ```
 
-`loop_result.txt` is the top-1 matching results for each query frame of the query sequence. The $1^{th}$ column is the ID of frame in query sequence. The $2^{nd}$ column is the ID of the matching frame in reference sequence. The $3^{th}$ column is the cosine distance between the query frame and matching frame.
+`loop_result.txt` is the top-1 matching results for each query frame of the query sequence. The $1^{th}$ column is the ID of frame in query sequence. The $2^{nd}$ column is the ID of the matching frame in reference sequence. The $3^{th}$ column is the similarity between the query frame and the matching frame.
 ```text
 loop_result.txt
 |-- 0 3304 0.181415737
