@@ -88,7 +88,7 @@ query_ref_id.txt
 We also provide tools for calculating $\overline{AwC\mbox{-}RT}$, $\overline{AwC\mbox{-}PT}$, and $\overline{AwC\mbox{-}FT}$.
 
 ### Example Usage
-1) Download any .rar file or all the results folder, and and Unzip the .rar file.
-2) Sownload the python evaluation script, 
+1) Download any `.rar` file or all the `results` folder, and and Unzip the `.rar` file.
+2) Sownload the python evaluation script, `eval_by_AwC_PT_RT_FT.py`.
 3) Place the script in any folder for { $\{< k, j >}$ } $_j$ using a specific method, e.g. ``/your path/boreas-2020-11-26-13-58/LiDAR-Iris".
 4) Run the python script, then you can get results.
