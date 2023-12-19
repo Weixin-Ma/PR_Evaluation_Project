@@ -85,7 +85,8 @@ query_ref_id.txt
 ```
 
 ## Devkit 
-To be continued.
-<!--We also provide tools for calculating $\overline{AwC\mbox{-}RT}$ and $\overline{AwC\mbox{-}PT}$.-->
+We also provide tools for calculating $\overline{AwC\mbox{-}RT}$, $\overline{AwC\mbox{-}PT}$, and $\overline{AwC\mbox{-}FT}$.
 
 ### Example Usage
+1) Simply download the python evaluation script.
+2) Place the script in any folder for { $\{< k, j >}$ } $_j$, e.g. 
