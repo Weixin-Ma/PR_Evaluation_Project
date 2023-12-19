@@ -1,8 +1,8 @@
 # PR_Evaluation_Project
-A Comprehensive Evaluation on Range Sensor-based Long-term Place Recognition in Large-scale Urban Environment
+Evaluation of Range Sensing-based Place Recognition for Long-term Urban Localization
 
 ## Obejctive
-The performance of long-term place recognition can easily change with the variation of environmental conditions, especially the variation of weather and traffic condition. To have a deep understanding about this problem,we conducted a comprehensive evaluation of several SOTA range-sensor-based place recognition techniques on a long-term public dataset, Borease, which contains stark weather and traffic condition variation. We also proposed two new metrics to evaluate the effect of matching threshold setting on long-term place recognition performance
+The effectiveness of long-term place recognition may be degraded by environment changes, such as seasonal changes and weather changes. To have a deep understanding of this issue, we conduct a comprehensive evaluation study on several state-of-the-art range sensing-based (i.e., LiDAR and radar) place recognition methods on the Borease dataset that encapsulates long-term localization scenarios with stark seasonal variations and adverse weather conditions. In addition, We design a new metric to evaluate the influence of matching thresholds on the performance of place recognition in long-term localization.
 
 ## Raw Data
 All the results in the paper can be found in this repository.
