@@ -79,8 +79,9 @@ ref_frame_pose.txt
 
 `query_ref_id.txt` records the sequence IDs for query sequence and reference sequence used for the current folder. 
 ```text
-ref_frame_pose.txt
-|-- -0.001453277 -0.002786294 0.129992412
+query_ref_id.txt
+|-- que: boreas-2020-12-01-13-26
+    ref: boreas-2020-11-26-13-58
     ...
 ```
 
