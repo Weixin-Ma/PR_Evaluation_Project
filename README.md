@@ -87,6 +87,10 @@ query_ref_id.txt
 ## Devkit 
 We also provide tools for calculating $\overline{AwC\mbox{-}RT}$, $\overline{AwC\mbox{-}PT}$, and $\overline{AwC\mbox{-}FT}$.
 
+### Dependencies
+1) Numpy
+2) Matplotlib
+
 ### Example Usage
 1) Download any `.rar` file or the whole `results` folder, and Unzip `.rar` files.
 2) Download the python evaluation script, `eval_by_AwC_PT_RT_FT.py`.
