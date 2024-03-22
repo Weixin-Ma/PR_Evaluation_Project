@@ -1,9 +1,18 @@
-![PR_problem_formulation](https://github.com/Weixin-Ma/PR_Evaluation_Project/assets/53315962/c2f201fa-b085-4fbd-97c3-6daa30ae3fb8)# <p align="center">Evaluation of Range Sensing-based Place Recognition for Long-term Urban Localization</p>
+# <p align="center">Evaluation of Range Sensing-based Place Recognition for Long-term Urban Localization</p>
 
 ## Obejctive
-<p align="center"><img src="PR.png" width=800></p>
+<p align="center"><img src="PR.png" width=400></p>
+<p align="center">Problem formulation of place recognition</p>
+
+<p align="center"><img src="Borease Dataset.png" width=900></p>
+<p align="center">Seasonal and weather changes in long-term scenarios in Borease Dataset</p>
 
 The effectiveness of long-term place recognition may be degraded by environment changes, such as seasonal changes and weather changes. To have a deep understanding of this issue, we conduct a comprehensive evaluation study on several state-of-the-art range sensing-based (i.e., LiDAR and radar) place recognition methods on the Borease dataset that encapsulates long-term localization scenarios with stark seasonal variations and adverse weather conditions. In addition, We design a new metric to evaluate the influence of matching thresholds on the performance of place recognition in long-term localization.
+
+## AWC-FT
+A novel metric to evaluate the influence of matching thresholds on place recognition performance for long-term localization.
+<p align="center"><img src="AwC_FT.png" width=600></p>
+<p align="center"> An example for how to compute the proposed $AwC\mbox{-}FT$ (i.e., the area of gray area). The normalized $AwC\mbox{-}FT$, $\overline{AwC\mbox{-}FT}$ is the ratio of the original $AwC\mbox{-}FT$ to the area of the purple dashed box.</p>
 
 ## Raw Data
 All the results in the paper can be found in this repository.
@@ -97,3 +106,4 @@ We also provide tools for calculating $\overline{AwC\mbox{-}RT}$, $\overline{AwC
 2) Download the python evaluation script, `eval_by_AwC_PT_RT_FT.py`.
 3) Place the script in any folder for { $\{< k, j >}$ } $_j$ using a specific method, e.g. ``/your path/boreas-2020-11-26-13-58/LiDAR-Iris".
 4) Run the python script, then you can get results and related AwC figures.
+
