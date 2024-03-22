@@ -1,10 +1,12 @@
 # <p align="center">Evaluation of Range Sensing-based Place Recognition for Long-term Urban Localization</p>
 
+<p align="center">Paper : https://ieeexplore.ieee.org/document/10477884</p>
+
 ## Obejctive
 <p align="center"><img src="PR.png" width=400></p>
 <p align="center">Problem formulation of place recognition</p>
 
-<p align="center"><img src="Borease Dataset.png" width=900></p>
+<p align="center"><img src="Borease Dataset.png" width=820></p>
 <p align="center">Seasonal and weather changes in long-term scenarios in Borease Dataset</p>
 
 The effectiveness of long-term place recognition may be degraded by environment changes, such as seasonal changes and weather changes. To have a deep understanding of this issue, we conduct a comprehensive evaluation study on several state-of-the-art range sensing-based (i.e., LiDAR and radar) place recognition methods on the Borease dataset that encapsulates long-term localization scenarios with stark seasonal variations and adverse weather conditions. In addition, We design a new metric to evaluate the influence of matching thresholds on the performance of place recognition in long-term localization.
